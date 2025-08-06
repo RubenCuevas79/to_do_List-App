@@ -1,0 +1,47 @@
+*{
+padding: 0;
+margin:0;
+block-size: border-box;
+}
+
+
+
+/* Body centrado */
+/*body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}*/
+
+/* Estilo general del input */
+/* #tex {
+  width: 30%;
+  margin-top: 15em;
+  margin-left: 40em;
+}
+
+/* Móviles pequeños */
+@media (max-width: 480px) {
+ 
+}
+
+/* Móviles medianos */
+@media (max-width: 600px) {
+  
+}
+
+/* Tablets pequeñas */
+@media (max-width: 768px) {
+  
+}
+
+/* Tablets grandes o laptops */
+@media (max-width: 1024px) {
+ 
+}
+
+/* Pantallas grandes */
+@media (min-width: 1200px) {
+ 
+  }

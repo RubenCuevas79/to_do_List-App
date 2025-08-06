@@ -1,0 +1,73 @@
+*{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+}
+
+#hoja1{
+    background-image: url(../assets/img/portada.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+}
+#hoja2{
+    background-image:url(../assets/img/Fondo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contenedor2{
+        margin-top: 19%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;   
+        gap: 3%; 
+}
+
+#tex{
+    width: 150px;
+    border-radius: 4px;  
+}
+#agregar_tarea , #eliminar , #editar, #unBoton {
+  margin-top: 10%;
+  background-color: rgb(162, 162, 227); /* color de fondo */
+  color: white;           /* color del texto */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+ }
+
+
+
+
+#conUno, #indXacion{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-count: 20%;
+    gap: 20%;
+}
+
+/* 
+
+
+#contenedor2 {
+
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 50rem;
+    right: 50rem;
+    border: 30px solid color(srgb red rgb(123, 3, 3) rgb(255, 0, 8));
+    background-image: url(img/Fondo.png);
+}*/
